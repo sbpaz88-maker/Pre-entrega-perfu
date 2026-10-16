@@ -7,4 +7,4 @@ Armé la pre-entrega de la web orientada a un emprendimiento o e-commerce de cos
 - CSS3 (Diseño responsivo en tonos rosas, estilos propios con Flexbox para el catálogo de productos y maquetado general)
 
 ## Link
-https://github.com/sbpaz88-maker/Pre-entrega-perfu
+ https://sbpaz88-maker.github.io/Pre-entrega-perfu/
