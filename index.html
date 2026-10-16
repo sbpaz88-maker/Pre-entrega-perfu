@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belleza & Cosmética Bella Paz</title>
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Header y Navegación -->
+    <header>
+        <h1>Bella Paz - Cosmética & Estética</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Inicio / Bienvenida -->
+        <section id="inicio" class="hero">
+            <h2>Cuidamos tu piel con la mejor calidad</h2>
+            <p>Descubrí nuestra línea exclusiva de cremas, serums y cosmética natural pensada para vos.</p>
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Productos de cosmética y cuidado personal">
+        </section>
+
+        <!-- Sección Productos -->
+        <section id="productos">
+            <h2>Nuestros Productos Destacados</h2>
+            <div class="grid-productos">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=500&q=80" alt="Serum Hidratante">
+                    <h3>Serum Facial Hidratante</h3>
+                    <p>Fórmula enriquecida con ácido hialurónico para una piel firme y radiante.</p>
+                    <span class="precio">$14.500</span>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=500&q=80" alt="Crema Nutritiva">
+                    <h3>Crema Nutritiva de Noche</h3>
+                    <p>Reparación intensiva y nutrición profunda mientras descansás.</p>
+                    <span class="precio">$18.200</span>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=500&q=80" alt="Mascarilla de Rosas">
+                    <h3>Mascarilla de Arcilla & Rosas</h3>
+                    <p>Limpieza profunda y desintoxicación suave para todo tipo de piel.</p>
+                    <span class="precio">$12.000</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto">
+            <h2>Contacto y Consultas</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+
+                <label for="mensaje">Mensaje o consulta:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribinos tu consulta..." required></textarea>
+
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Todos los derechos reservados 2026 - Sabrina Paz ®.</p>
+    </footer>
+
+</body>
+</html>
